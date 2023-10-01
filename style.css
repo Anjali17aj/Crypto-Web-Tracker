@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background-bitcoin-crypto-currency.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.logo{
+    width: 65px;
+    cursor: pointer;
+}
+
+.logos{
+    width: 55px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex:1;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 11px 21px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav .btn {
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 11px 28px;
+    border-radius: 19px;
+}
+
+.content {
+    margin-top: 10%;
+}
+
+.content h1{
+    font-size: 75px;
+    margin-bottom: 16px;
+}
+
+.content h1 span{
+    color: #f28f0d;
+}
+
+.content p{
+  line-height: 20px;
+  font-size: 15px;
+  font-family:'Roboto Slab', sans-serif;
+}
+
+.content .btn {
+    display: inline-block;
+    margin-top: 28px;
+    background: #ec921b;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 32px;
+    border-radius: 30px;
+}
+
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #f28f0d;
+    border: 1px solid whitesmoke;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.coin img{
+    width: 60px;
+    margin-right: 12px;
+}
+
+.coin h3{
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+
+
+/* footer section styling */
+footer{
+    background: whitesmoke;
+    padding: 25px 23px;
+    color: #061f29;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer span a{
+    color: #b96a10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
